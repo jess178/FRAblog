@@ -1,0 +1,124 @@
+#maintitle
+{
+    
+    border-bottom: solid;
+    border-width: 3px;
+    color:#940710;
+    font-family: Helvetica;
+}
+#navbar 
+{
+    
+    display: flex;
+    align-items: center;
+
+}
+#navbarcontainer
+{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+.navbarbox 
+{
+    width: 25%;
+    height: 3em;
+    border-left: solid;
+    border-right: solid;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background-color: #940710;
+    color: white;
+    font-size:1.4vw;
+    text-decoration: none;
+    font-family: Helvetica;
+}
+.navbarbox:hover 
+{
+    background-color:#169436;
+    color: white;
+    border-color: #169436;
+}
+#endleft
+{
+    background-color:#940710;
+    pointer-events: none;
+}
+#endright
+{
+    background-color:#940710;
+    pointer-events: none;
+}
+#CINENOEL 
+{
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+    font-weight: bold;
+    font-size:1.5vw;
+    text-decoration: none;
+    font-family: Helvetica;
+    color: #940710;
+    margin: auto;
+    width: 30%;
+    margin-bottom: 1em;
+    
+}
+#Logo
+{
+    width: 7vw;
+    margin-right: 0.5em;
+}
+#welcomebox
+{
+    border: solid;
+    border-width: 5px;
+    color: #940710;
+    font-family: Helvetica;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+}
+.maincontent
+{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.relatedarticle
+{
+    display: flex;
+    border: solid;
+    border-color: #940710;
+    border-width: 2px;
+    background-color: #940710;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: helvetica;
+    font-size: 1vw;
+    margin-top: 10px;
+    margin-left: 10em;
+    margin-right: 10em;
+   
+}
+.relatedarticle:hover
+{
+    border-color: #169436;
+    border-width: 2px;
+    background-color: #169436;
+}
+.relatedarticlebox
+{
+    display: flex;
+    align-items: center;
+}
+.thumbnail
+{
+    width: 10vw;
+    border-style: solid;
+    border-width: 8px;
+    margin: 10px;
+    margin-right: 20px;
+}
