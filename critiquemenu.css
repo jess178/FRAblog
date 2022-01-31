@@ -1,0 +1,114 @@
+#navbar 
+{
+    
+    display: flex;
+    align-items: center;
+
+}
+.navbarbox 
+{
+    width:28%;
+    height: 3em;
+    border-left: solid;
+    border-right: solid;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background-color: white;
+    color: #940710;
+    font-size:1.4vw;
+    text-decoration: none;
+    font-family: Helvetica;
+}
+.navbarbox:hover 
+{
+    background-color:#169436;
+    color: white;
+    border-color: #169436;
+}
+#CINENOEL 
+{
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+    width:16%;
+    font-weight: bold;
+    
+}
+#Logo
+{
+    width: 3vw;
+    margin-right: 1em;
+}
+
+#Critiques
+{
+    background-color:#940710;
+    color: white;
+    border-color: #940710;
+    pointer-events: none;  
+}
+#titlebox 
+{
+    font-family: Helvetica;
+    font-weight: bold;
+    background-color: #940710;
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    margin-top:-2vw;
+    padding-top:2vw;
+    padding-bottom: 0.3vw;
+}
+#welcomebox
+{
+    border: solid;
+    border-width: 5px;
+    color: #940710;
+    font-family: Helvetica;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+}
+.maincontent
+{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.relatedarticle
+{
+    display: flex;
+    border: solid;
+    border-color: #940710;
+    border-width: 2px;
+    background-color: #940710;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: helvetica;
+    font-size: 1vw;
+    margin-top: 10px;
+    margin-left: 10em;
+    margin-right: 10em;
+   
+}
+.relatedarticle:hover
+{
+    border-color: #169436;
+    border-width: 2px;
+    background-color: #169436;
+}
+.relatedarticlebox
+{
+    display: flex;
+    align-items: center;
+}
+.thumbnail
+{
+    width: 10vw;
+    border-style: solid;
+    border-width: 8px;
+    margin: 10px;
+    margin-right: 20px;
+}
